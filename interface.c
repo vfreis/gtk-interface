@@ -102,7 +102,7 @@ double calculo(GtkButton *button, gpointer data)
 
  	char resultado[10];
 
- 	sprintf(resultado, "%lf", total);
+ 	sprintf(resultado, "%.0lf", total);
 
     GtkLabel *label15 = (GtkLabel*)gtk_builder_get_object(builder, "label15");
 
